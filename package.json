@@ -1,0 +1,36 @@
+{
+  "name": "contact-lens-kinesis",
+  "version": "1.0.0",
+  "description": "IaC script to link a Amazon Connect instance to a Kinesis stream with Contact Lens",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Joaquin",
+    "email": "joaquin.badillo.g@gmail.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1605.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
